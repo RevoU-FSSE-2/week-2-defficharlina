@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+     <meta charset="UTF-8" />
+     <meta neme="viewport" content="width=device width, initial scales=1.0" />
+     <title>Home | Dayleen Official</title>
+     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="icon"
+      href="https://i.imgur.com/c1yQ3kV.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/all.css">
+    </head>
+ <body>
+    <span class="hamburger">
+        <img
+          src="https://user-images.githubusercontent.com/2970318/209647125-dc41103d-c545-4e2e-b89b-099fbfcde702.svg"
+          alt="Hamburger Icon"
+        />
+      </span>
+    <span class="instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </span>
+      <span class="facebook">
+        <i class="fa-brands fa-facebook"></i>
+      </span>
+
+    <header>
+        <nav>
+            <span class="dayleen"></span>
+        <img src="https://i.imgur.com/c1yQ3kV.png" width="200" height="200">
+        </span>
+        </nav>
+    </header>
+
+    <main>
+        <section id="section-deskripsi">
+            <p>Brand Dayleen merupakan pakaian dengan desain simple dan chic yang cocok digunakan untuk berbagai kegiatan anda sehari-hari</p>
+        </section>
+
+        <section id="foto-produk">
+        <div class="grid-container">
+            <div id="item-1">
+            <img src="https://i.imgur.com/rZ0hx0B.jpg" alt="Dania Crop Top" />
+            </div>
+
+            <div id="item-2">
+            <img src="https://i.imgur.com/K6wrW5V.jpg" alt="Dalista Dress" />
+            </div>
+
+            <div id="item-3">
+            <img src="https://i.imgur.com/3QB0S4b.jpg" alt="Dara Outer" />
+            </div>
+        </div>
+        </section>
+
+        <section id="section-video">
+            <div class="flex-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kaijG-YpLaE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="form-section">
+           <h2>Create Your Account</h2>
+            <form action="#">
+            <fieldset>
+              <legend>Personal Data:</legend>
+              <div>
+                <input id="nama" type="text" placeholder="Nama" required />
+              </div>
+
+              <div>
+                <input id="handphone" type="number" placeholder="Nomor Handphone" minlength="10" maxlength="13" required />
+              </div>
+
+              <div>
+                <input id="email" type="email" placeholder="Email" required />
+              </div>
+
+              <div>
+                <input id="password" type="password" placeholder="Password" required />
+              </div>
+
+              <div>
+                <input id="password2" type="password" placeholder="Konfirmasi Password" required />
+              </div>
+
+              <div>
+                <p>Apakah kamu tinggal di Indonesia?</p>
+                <input type="radio" id="ya" name="domisili" value="Ya" />
+                <label for="ya">Ya</label>
+                <input type="radio" id="tidak" name="domisili" value="Tidak" />
+                <label for="tidak">Tidak</label>
+              </div>
+
+              <div>
+                <p>Alamat Lengkap:</p>
+                <textarea rows="3"></textarea>
+              </div>
+
+              <div>
+                <p>Upload Foto Profil:</p>
+                <input
+                  type="file"
+                  id="photo"
+                  name="fotoprofil"
+                  required
+                  accept="image/png, image/jpeg"
+                />
+              </div>
+
+              <div>
+                <input
+                  id="konfirmasi"
+                  type="checkbox"
+                  name="konfirmasi"
+                  value="konfirmasi"
+                />
+                <label for="konfirmasi">Saya setuju dengan semua Syarat dan Ketentuan Dayleen</label>
+              </div>
+
+            </fieldset>
+            <button type="submit">Submit</button>
+          </form>
+        </section>
+    </main>
+</body>
+<footer>
+    <p>Copyright © 2023</p>
+</footer>
+</html>
